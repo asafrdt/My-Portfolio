@@ -8,7 +8,7 @@ class Testimonials extends Component {
       ) {
         return (
           <li key={testimonials.user}>
-            <span style={{ color: "white" }}>
+            <span style={{ color: "white", textAlign: "center" }}>
               <h1>{testimonials.text}</h1>
               <iframe
                 title="vimeo-player"
@@ -81,6 +81,12 @@ class Testimonials extends Component {
                 allow="autoplay; fullscreen"
                 allowfullscreen
               ></iframe>
+              <br />
+              <br />
+              <h1 style={{ textAlign: "center" }}>
+                For more, visit my{" "}
+                <a href="https://vimeo.com/user68116729">Vimeo</a> page.
+              </h1>
             </span>
           </li>
         );

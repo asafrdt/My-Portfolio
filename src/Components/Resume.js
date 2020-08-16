@@ -32,7 +32,7 @@ class Resume extends Component {
               <span>&bull;</span> <em className="date">{military.years}</em>
             </p>
             &bull; Responsible for up to 30 men.
-            <br /> &bull; Planning and execution of missions for several
+            <br /> &bull; Planning and execution of missions for several squads.
             <br />
             &bull; Managing processes which led to breakthroughs in the main
             field of the unit’s expertise.
