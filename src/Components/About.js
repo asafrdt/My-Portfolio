@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { WhatsappIcon, FacebookMessengerIcon } from "react-share";
 class About extends Component {
   render() {
     if (this.props.data) {
@@ -38,7 +38,7 @@ class About extends Component {
                   <span style={{ color: "white" }}>{name}</span>
                   <br />
                   <span style={{ color: "white" }}>
-                    {city} {state}
+                    {city}, {state}
                   </span>
                   <br />
                   <span style={{ color: "white" }}>{phone}</span>
@@ -50,6 +50,22 @@ class About extends Component {
                 <p>
                   <a href={resumeDownload} className="button">
                     <i className="fa fa-download"></i>Download Resume
+                  </a>
+                  <br />
+                  <a href={"https://wa.me/+972543476767/?text="}>
+                    <WhatsappIcon
+                      size={"5rem"}
+                      round={true}
+                      className="Whatsapp-button"
+                    />
+                  </a>
+                  &nbsp;&nbsp;&nbsp;
+                  <a href={"https://m.me/Asaf-Arditi/?text="}>
+                    <FacebookMessengerIcon
+                      size={"5rem"}
+                      round={true}
+                      className="Whatsapp-button"
+                    />
                   </a>
                 </p>
               </div>
