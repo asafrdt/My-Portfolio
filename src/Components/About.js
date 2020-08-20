@@ -50,6 +50,38 @@ class About extends Component {
                   <span style={{ color: "white" }}>{phone}</span>
                   <br />
                   <span style={{ color: "white" }}>{email}</span>
+                  <br />
+                  <div className="react-share-button">
+                    <a
+                      className="react-share-button"
+                      target="_blank"
+                      href={"https://wa.me/+972543476767/?text="}
+                    >
+                      <WhatsappIcon size={"3rem"} round={true} />
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a
+                      className="react-share-button"
+                      target="_blank"
+                      href={"https://m.me/Asaf-Arditi/?text="}
+                    >
+                      <FacebookMessengerIcon size={"3rem"} round={true} />
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a
+                      className="react-share-button"
+                      target="_blank"
+                      href={
+                        "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=asafrdt@gmail.com&su=Hello From #YourName&body=Hi Asaf, nice to meet you!&ui=2&tf=1&pli=1"
+                      }
+                    >
+                      <EmailIcon
+                        size={"3rem"}
+                        round={true}
+                        bgStyle={{ fill: "red" }}
+                      />
+                    </a>
+                  </div>
                 </p>
               </div>
               <div className="columns download">
@@ -58,37 +90,6 @@ class About extends Component {
                     <i className="fa fa-download"></i>Download Resume
                   </a>
                   <br />
-                  <a
-                    target="_blank"
-                    href={"https://wa.me/+972543476767/?text="}
-                  >
-                    <WhatsappIcon
-                      size={"5rem"}
-                      round={true}
-                      className="Whatsapp-button"
-                    />
-                  </a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a target="_blank" href={"https://m.me/Asaf-Arditi/?text="}>
-                    <FacebookMessengerIcon
-                      size={"5rem"}
-                      round={true}
-                      className="Whatsapp-button"
-                    />
-                  </a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a
-                    target="_blank"
-                    href={
-                      "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=asafrdt@gmail.com&su=Hello From #YourName&body=Hi Asaf, nice to meet you!&ui=2&tf=1&pli=1"
-                    }
-                  >
-                    <EmailIcon
-                      size={"5rem"}
-                      round={true}
-                      bgStyle={{ fill: "red" }}
-                    />
-                  </a>
                 </p>
               </div>
             </div>
