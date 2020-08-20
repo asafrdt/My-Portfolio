@@ -40,16 +40,6 @@
         "name": "github",
         "url": "https://github.com/asafrdt",
         "className": "fa fa-github"
-      },
-      {
-        "name": "share",
-        "url": "whatsapp://send?text=http%3A%2F%2Fwww.asafrdt.com",
-        "className": "fa fa-share"
-      },
-      {
-        "name": "whatsapp",
-        "url": "https://wa.me/+972543476767/?text=",
-        "className": "fa fa-envelope"
       }
     ]
   },
