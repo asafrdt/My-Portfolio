@@ -1,5 +1,11 @@
 import React, { Component } from "react";
-import { WhatsappIcon, FacebookMessengerIcon } from "react-share";
+import {
+  WhatsappIcon,
+  FacebookMessengerIcon,
+  WhatsappShareButton,
+  EmailShareButton,
+  EmailIcon,
+} from "react-share";
 class About extends Component {
   render() {
     if (this.props.data) {
@@ -52,19 +58,35 @@ class About extends Component {
                     <i className="fa fa-download"></i>Download Resume
                   </a>
                   <br />
-                  <a href={"https://wa.me/+972543476767/?text="}>
+                  <a
+                    target="_blank"
+                    href={"https://wa.me/+972543476767/?text="}
+                  >
                     <WhatsappIcon
                       size={"5rem"}
                       round={true}
                       className="Whatsapp-button"
                     />
                   </a>
-                  &nbsp;&nbsp;&nbsp;
-                  <a href={"https://m.me/Asaf-Arditi/?text="}>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a target="_blank" href={"https://m.me/Asaf-Arditi/?text="}>
                     <FacebookMessengerIcon
                       size={"5rem"}
                       round={true}
                       className="Whatsapp-button"
+                    />
+                  </a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a
+                    target="_blank"
+                    href={
+                      "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=asafrdt@gmail.com&su=Hello From #YourName&body=Hi Asaf, nice to meet you!&ui=2&tf=1&pli=1"
+                    }
+                  >
+                    <EmailIcon
+                      size={"5rem"}
+                      round={true}
+                      bgStyle={{ fill: "red" }}
                     />
                   </a>
                 </p>
