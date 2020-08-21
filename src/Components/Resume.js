@@ -35,29 +35,25 @@ class Resume extends Component {
             </p>
             &bull; Responsible for up to 30 men.
             <br /> &bull; Planning and execution of missions for several squads.
-            <br />
-            &bull; Managing processes which led to breakthroughs in the main
-            field of the unit’s expertise.
-            {military.title1}
-            <span style={{ color: "white" }}>&bull;</span>{" "}
-            <em className="date">{military.years1}</em>
-          </div>
-        );
-      });
-      var military1 = this.props.data.military1.map(function (military1) {
-        return (
-          <div>
-            <br />
-            <p className="info">
-              {military1.title1}
-              <span style={{ color: "white" }}>&bull;</span>{" "}
-              <em className="date">{military1.years1}</em>
-            </p>
-            &bull; Sergeant in a combat squad.
+            <br /> &bull; Sergeant in a combat squad.
             <br /> &bull; Participated in “Protective Edge” operation.
           </div>
         );
       });
+      // var military1 = this.props.data.military1.map(function (military1) {
+      //   return (
+      //     <div>
+      //       <br />
+      //       <p className="info">
+      //         {military1.title1}
+      //         <span style={{ color: "white" }}>&bull;</span>{" "}
+      //         <em className="date">{military1.years1}</em>
+      //       </p>
+      //       &bull; Sergeant in a combat squad.
+      //       <br /> &bull; Participated in “Protective Edge” operation.
+      //     </div>
+      //   );
+      // });
       // var skills = this.props.data.skills.map(function (skills) {
       //   var className = "bar-expand " + skills.name.toLowerCase();
       //   return (
@@ -105,8 +101,7 @@ class Resume extends Component {
           <div className="nine columns main-col">
             <span style={{ color: "white" }}>
               {work} &bull; Creative thinking skills to accommodate consumers.
-              <br /> &bull; Time management under a specific time schedule and
-              pressure.
+              <br /> &bull; Proactive and effective time management
               <br />
               &bull; Specializing in Adobe Premiere Pro.
               <br /> &bull; Familiar with Adobe After effects, Lightroom and
@@ -123,10 +118,7 @@ class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <span style={{ color: "white" }}>
-              {military}
-              {military1}
-            </span>
+            <span style={{ color: "white" }}>{military}</span>
           </div>
         </div>
         {/* 

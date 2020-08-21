@@ -78,7 +78,7 @@ class Header extends Component {
                 vision & AI. <br />
               </span>
             </h3>
-            <h2>Looking for junior position in central Israel.</h2>
+            <h2>Looking for a junior position in central Israel.</h2>
 
             <h3>
               <span></span>
