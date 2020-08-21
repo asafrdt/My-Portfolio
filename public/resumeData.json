@@ -46,8 +46,8 @@
   "resume": {
     "education": [
       {
-        "school": "Sami Shamoon College of engineering",
-        "degree": "B.Sc Software engineering student"
+        "degree": "Sami Shamoon College of engineering",
+        "school": "B.Sc Software engineering student"
       }
     ],
     "work": [
@@ -102,16 +102,40 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Form-Builder (ReactJS, NodeJS, MongoDB)",
+        "title": "Form Builder",
         "category": "Generate a custom form which anyone can submit to. using ReactJS, NodeJS + Express, MongoDB.",
-        "image": "form-builder.png",
+        "image": "Mern.png",
         "url": "https://form-builder-asafrdt.herokuapp.com/"
       },
       {
         "title": "BSport",
         "category": "Social network for finding sports activities in Beer Sheva. using Java, Android Studio and Firabase as a Data Base.",
-        "image": "Bsport.png",
+        "image": "AndroidJava.jpeg",
         "url": "https://www.youtube.com/watch?v=Mc7Z8zyrLYc&feature=youtu.be"
+      },
+      {
+        "title": "Custom Compiler",
+        "category": "Compiler using C. Scanner with Lex, Parser, Abstract syntax tree (AST), 3 Address Code Generator, Workspace: Linux.",
+        "image": "Linux_and_c.png",
+        "url": "https://github.com/asafrdt/Compiler"
+      },
+      {
+        "title": "College-department-Website",
+        "category": "using C#, ASP.NET and SQL.",
+        "image": "MVC.jpg",
+        "url": "https://github.com/asafrdt/College-department-Website/tree/master/project_new"
+      },
+      {
+        "title": "ID3-Classifier",
+        "category": "ID3 Classifier in Python (GUI Platform) with CSV file as DB",
+        "image": "id3.jpg",
+        "url": "https://github.com/asafrdt/ID3-Classifier"
+      },
+      {
+        "title": "CRM System",
+        "category": "Manage customers, employees, etc. using C# and SQL.",
+        "image": "crm.jpg",
+        "url": "https://github.com/asafrdt/CRM-System"
       }
     ]
   },

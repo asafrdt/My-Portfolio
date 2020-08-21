@@ -270,10 +270,12 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #f8f8f7;
   padding-top: 90px;
-  padding-bottom: 72px;
-  overflow: hidden;
+  padding-bottom: 60px;
+  background: #1f1f1f url(../images/resumebg.jpg) no-repeat center center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-attachment: fixed;
 }
 
 #resume a,
@@ -313,7 +315,7 @@ ul#nav li.current a {
 }
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
-  color: black;
+  color: white;
   margin-bottom: 18px;
   margin-top: 9px;
 }
@@ -462,17 +464,20 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-  background: #ebeeee;
+  background: url(../images/black-bg.jpg);
   padding-top: 90px;
   padding-bottom: 60px;
+  background: #1f1f1f url(../images/portfoliobg.jpg) no-repeat center center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-attachment: fixed;
 }
 #portfolio h1 {
-  font: 15px/24px "opensans-semibold", sans-serif;
+  font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
+  color: #fff;
   text-align: center;
-  margin-bottom: 48px;
-  color: #95a3a3;
 }
 
 /* Portfolio Content */
@@ -517,8 +522,8 @@ ul#nav li.current a {
 .portfolio-item .item-wrap .link-icon {
   display: block;
   color: #fff;
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   font-size: 18px;
   line-height: 30px;
   text-align: center;
@@ -720,6 +725,7 @@ call-to-action .button {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
+  text-align: center;
 }
 #testimonials h1 span {
   display: none;

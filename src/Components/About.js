@@ -57,17 +57,17 @@ class About extends Component {
                       target="_blank"
                       href={"https://wa.me/+972543476767/?text="}
                     >
-                      <WhatsappIcon size={"3rem"} round={true} />
+                      <WhatsappIcon size={"4rem"} round={true} />
                     </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a
                       className="react-share-button"
                       target="_blank"
                       href={"https://m.me/Asaf-Arditi/?text="}
                     >
-                      <FacebookMessengerIcon size={"3rem"} round={true} />
+                      <FacebookMessengerIcon size={"4rem"} round={true} />
                     </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a
                       className="react-share-button"
                       target="_blank"
@@ -76,7 +76,7 @@ class About extends Component {
                       }
                     >
                       <EmailIcon
-                        size={"3rem"}
+                        size={"4rem"}
                         round={true}
                         bgStyle={{ fill: "red" }}
                       />

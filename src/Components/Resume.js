@@ -7,7 +7,7 @@ class Resume extends Component {
       var education = this.props.data.education.map(function (education) {
         return (
           <div key={education.school}>
-            <h3>{education.school}</h3>
+            <h3 style={{ color: "white" }}>{education.school}</h3>
             <p className="info">{education.degree}</p>
           </div>
         );
@@ -15,10 +15,11 @@ class Resume extends Component {
       var work = this.props.data.work.map(function (work) {
         return (
           <div key={work.company}>
-            <h3>{work.company}</h3>
+            <h3 style={{ color: "white" }}>{work.company}</h3>
             <p className="info">
               {work.title}
-              <span>&bull;</span> <em className="date">{work.years}</em>
+              <span style={{ color: "white" }}>&bull;</span>{" "}
+              <em className="date">{work.years}</em>
             </p>
           </div>
         );
@@ -26,10 +27,11 @@ class Resume extends Component {
       var military = this.props.data.military.map(function (military) {
         return (
           <div key={military.company}>
-            <h3>{military.company}</h3>
-            <p className="info">
+            <h3 style={{ color: "white" }}>{military.company}</h3>
+            <p className="info" style={{ color: "white" }}>
               {military.title}
-              <span>&bull;</span> <em className="date">{military.years}</em>
+              <span style={{ color: "white" }}>&bull;</span>{" "}
+              <em className="date">{military.years}</em>
             </p>
             &bull; Responsible for up to 30 men.
             <br /> &bull; Planning and execution of missions for several squads.
@@ -37,7 +39,8 @@ class Resume extends Component {
             &bull; Managing processes which led to breakthroughs in the main
             field of the unit’s expertise.
             {military.title1}
-            <span>&bull;</span> <em className="date">{military.years1}</em>
+            <span style={{ color: "white" }}>&bull;</span>{" "}
+            <em className="date">{military.years1}</em>
           </div>
         );
       });
@@ -47,7 +50,8 @@ class Resume extends Component {
             <br />
             <p className="info">
               {military1.title1}
-              <span>&bull;</span> <em className="date">{military1.years1}</em>
+              <span style={{ color: "white" }}>&bull;</span>{" "}
+              <em className="date">{military1.years1}</em>
             </p>
             &bull; Sergeant in a combat squad.
             <br /> &bull; Participated in “Protective Edge” operation.
@@ -70,14 +74,14 @@ class Resume extends Component {
         <div className="row education">
           <div className="three columns header-col">
             <h1>
-              <span>Education</span>
+              <span style={{ color: "white" }}>Education</span>
             </h1>
           </div>
 
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <span style={{ color: "black" }}>
+                <span style={{ color: "white" }}>
                   {education}
                   &bull; Major: Data Mining &bull; GPA: 84 &bull; Expected
                   graduation - 2021
@@ -94,12 +98,12 @@ class Resume extends Component {
         <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span>Experience</span>
+              <span style={{ color: "white" }}>Experience</span>
             </h1>
           </div>
 
           <div className="nine columns main-col">
-            <span style={{ color: "black" }}>
+            <span style={{ color: "white" }}>
               {work} &bull; Creative thinking skills to accommodate consumers.
               <br /> &bull; Time management under a specific time schedule and
               pressure.
@@ -114,12 +118,12 @@ class Resume extends Component {
         <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span>military</span>
+              <span style={{ color: "white" }}>military</span>
             </h1>
           </div>
 
           <div className="nine columns main-col">
-            <span style={{ color: "black" }}>
+            <span style={{ color: "white" }}>
               {military}
               {military1}
             </span>
