@@ -10,6 +10,8 @@ class Testimonials extends Component {
           <li key={testimonials.user}>
             <span style={{ color: "white", textAlign: "center" }}>
               <h1>{testimonials.text}</h1>
+              <br />
+              <br />
               <iframe
                 title="vimeo-player"
                 src="https://player.vimeo.com/video/333801741"
@@ -97,11 +99,11 @@ class Testimonials extends Component {
       <section id="testimonials">
         <div className="text-container">
           <div className="row">
-            <div className="two columns header-col"></div>
+            {/*    <div className="two columns header-col"></div>
 
-            <div className="ten columns flex-container">
-              <ul className="slides">{testimonials}</ul>
-            </div>
+            <div className="ten columns flex-container"> */}
+            <ul className="slides">{testimonials}</ul>
+            {/* </div>*/}
           </div>
         </div>
       </section>

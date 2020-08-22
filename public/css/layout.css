@@ -711,15 +711,18 @@ call-to-action .button {
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
-
   position: relative;
   min-height: 200px;
-  width: 100%;
-  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 #testimonials .text-container {
   padding-top: 96px;
   padding-bottom: 66px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 #testimonials h1 {
   font: 18px/24px "opensans-bold", sans-serif;
@@ -727,17 +730,20 @@ call-to-action .button {
   letter-spacing: 3px;
   color: #fff;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 #testimonials h1 span {
   display: none;
+  text-align: center;
 }
 #testimonials .header-col {
   padding-top: 9px;
+  text-align: center;
 }
 #testimonials .header-col h1:before {
   font-family: "FontAwesome";
   content: "\f10d";
-  padding-right: 10px;
   font-size: 72px;
   line-height: 72px;
   text-align: left;
@@ -1134,4 +1140,7 @@ footer .social-links li:first-child {
 }
 .react-share-button {
   margin-top: 7px;
+}
+.center {
+  text-align: center;
 }
