@@ -474,7 +474,7 @@ ul#nav li.current a {
   background-attachment: fixed;
 }
 #portfolio h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 24px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -524,6 +524,7 @@ ul#nav li.current a {
   display: block;
   color: #fff;
   height: 50px;
+
   width: 50px;
   font-size: 18px;
   line-height: 30px;
@@ -725,7 +726,7 @@ call-to-action .button {
   margin-right: auto;
 }
 #testimonials h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 24px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
