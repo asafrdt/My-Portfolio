@@ -5,7 +5,7 @@
     "description": "Fourth year software engineering student from Tel-Aviv.",
     "description2": "Add Somthing here!",
     "image": "profilepic.jpg",
-    "bio": "Throughout my life I have lived technology. From gaming as a child, through photography and video editing, to coding and developing complex algorithms. Currently, I am available for any type of job that will challenge me and give me more experience in the software world.",
+    "bio": "Throughout my life, I have lived technology. From gaming as a child, photography and video editing, to coding and developing complex alogrithms. I am now a fourth year student looking for a job that will challenge me and give me more experience in the software field.",
     "email": "asafrdt@gmail.com",
     "phone": "+972-54347676",
     "address": {
@@ -47,7 +47,7 @@
     "education": [
       {
         "degree": "Sami Shamoon College of engineering",
-        "school": "B.Sc Software engineering student"
+        "school": "B.Sc Software Engineering student"
       }
     ],
     "work": [

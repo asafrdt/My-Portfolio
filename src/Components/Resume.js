@@ -34,7 +34,7 @@ class Resume extends Component {
               <em className="date">{military.years}</em>
             </p>
             &bull; Responsible for up to 30 men.
-            <br /> &bull; Planning and execution of missions for several squads.
+            <br /> &bull; Planned the execution several squad missions.
             <br /> &bull; Sergeant in a combat squad.
             <br /> &bull; Participated in “Protective Edge” operation.
           </div>
