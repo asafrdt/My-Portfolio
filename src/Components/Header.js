@@ -67,7 +67,7 @@ class Header extends Component {
             <h1 className="responsive-headline">{name}</h1>
             <h3>
               <span>
-                Software engineer at Elbit systems,
+                Software engineer at Elbit systems.
                 {" "}
               </span>
               <br />
