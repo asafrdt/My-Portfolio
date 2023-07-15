@@ -67,8 +67,8 @@ class Header extends Component {
             <h1 className="responsive-headline">{name}</h1>
             <h3>
               <span>
-                I'm a fourth year software engineering student from Tel Aviv,
-                Israel.{" "}
+                Software engineer at Elbit systems,
+                {" "}
               </span>
               <br />
               <span>
@@ -78,7 +78,7 @@ class Header extends Component {
               </span>
             </h3>
             <h2>
-              I'm looking for a junior software developer position in central
+              I'm looking for a software developer position in central
               Israel.
             </h2>
 
