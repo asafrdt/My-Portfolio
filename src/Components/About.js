@@ -6,6 +6,7 @@ import {
   EmailShareButton,
   EmailIcon,
 } from "react-share";
+
 class About extends Component {
   render() {
     if (this.props.data) {
