@@ -1,44 +1,28 @@
 {
   "main": {
-    "name": "Asaf Arditi",
+    "name": "Or Goren",
     "occupation": "Fourth year software engineering student",
     "description": "Fourth year software engineering student from Tel-Aviv.",
     "description2": "Add Somthing here!",
-    "image": "profilepic.jpg",
-    "bio": "Throughout my life, I have lived technology. From gaming as a child, photography and video editing, to coding and developing complex alogrithms. I am now a fourth year student looking for a job that will challenge me and give me more experience in the software field.",
-    "email": "asafrdt@gmail.com",
-    "phone": "+972-54347676",
+    "image": "profilepic.jpeg",
+    "bio": "I’m a B.Sc. student in Information Systems at The Academic College of Tel-Aviv with a strong passion for project management, data, and technology. I am a hardworking, ambitious learner, eager to gain hands-on experience in a dynamic and challenging environment. I am currently looking for a student position in roles such as Data Analyst, Implementation Consultant, or PMO, to further develop my skills and contribute to.",
+    "email": "orrgn1766@gmail.com",
+    "phone": "+972-523530580",
     "address": {
       "city": "Tel Aviv",
       "state": "Israel"
     },
     "website": "http://www.asafrdt.com",
-    "resumedownload": "https://drive.google.com/file/d/1tCu0SAL5lpjwF13pmGE6oyFvd2Xr_sMf/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1vLqBgZ_8B1f4gkTbxT3SQepaDBEAVYCW/view?usp=sharing",
     "social": [
       {
-        "name": "facebook",
-        "url": "https://www.facebook.com/asaf.arditi",
-        "className": "fa fa-facebook"
-      },
-
-      {
-        "name": "vimeo",
-        "url": "https://vimeo.com/user68116729",
-        "className": "fa fa-vimeo-square"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/asaf-arditi-43352b179/",
+        "url": "https://www.linkedin.com/in/or-goren-008a80322",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/asafrdt/",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "github",
-        "url": "https://github.com/asafrdt",
+        "url": "https://github.com/orgoren17",
         "className": "fa fa-github"
       }
     ]
@@ -46,22 +30,27 @@
   "resume": {
     "education": [
       {
-        "degree": "Sami Shamoon College of engineering",
-        "school": "B.Sc Software Engineering student"
+        "degree": "The Academic College of Tel-Aviv",
+        "school": "B.Sc. in Information System Student"
       }
     ],
     "work": [
       {
-        "company": "Freelance business owner",
-        "title": "Video editor & Photographer",
-        "years": "2015 - Current"
+        "company": "Investment Club",
+        "title": "",
+        "years": "participating in discussions on finance, markets, and investment strategies.•"
+      },
+      {
+        "company": "Mentorship Program",
+        "title": "",
+        "years": "Mentor for first-year students as part of the college’s mentorship program."
       }
     ],
     "military": [
       {
-        "company": "Maglan unit - Commando Brigade",
-        "title": "Combat soldier & Platoon commander",
-        "years": "2011 - 2015"
+        "company": "",
+        "title": "",
+        "years": ""
       }
     ],
 
@@ -96,41 +85,18 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Form Builder",
-        "category": "Generate a custom form which anyone can submit to. using ReactJS, NodeJS + Express, MongoDB.",
-        "image": "Mern.png",
-        "url": "https://form-builder-asafrdt.herokuapp.com/"
+        "title": "Tableau Project",
+        "category": "Analyzing the Northwind database in Tableau with interactive dashboards for sales, customers, and product trends.",
+        "image": "tableau.png",
+        "url": "https://public.tableau.com/views/Book1_17416397845330/NorthwindDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
       },
       {
-        "title": "BSport",
-        "category": "Social network for finding sports activities in Beer Sheva. using Java, Android Studio and Firabase as a Data Base.",
-        "image": "AndroidJava.jpeg",
-        "url": "https://www.youtube.com/watch?v=Mc7Z8zyrLYc&feature=youtu.be"
-      },
-      {
-        "title": "Custom Compiler",
-        "category": "Compiler using C. Scanner with Lex, Parser, Abstract syntax tree (AST), 3 Address Code Generator, Workspace: Linux.",
-        "image": "Linux_and_c.png",
-        "url": "https://github.com/asafrdt/Compiler"
-      },
-      {
-        "title": "College-department-Website",
-        "category": "using C#, ASP.NET and SQL.",
-        "image": "MVC.jpg",
-        "url": "https://github.com/asafrdt/College-department-Website/tree/master/project_new"
-      },
-      {
-        "title": "ID3-Classifier",
-        "category": "ID3 Classifier in Python (GUI Platform) with CSV file as DB",
-        "image": "id3.jpg",
-        "url": "https://github.com/asafrdt/ID3-Classifier"
-      },
-      {
-        "title": "CRM System",
-        "category": "Manage customers, employees, etc. using C# and SQL.",
-        "image": "crm.jpg",
-        "url": "https://github.com/asafrdt/CRM-System"
+        "title": "Excel Project",
+        "category": "Excel dashboard analyzing Northwind sales, customer behavior, and product trends for data-driven decisions.",
+        "image": "excel.webp",
+        "url": "The project focuses on analyzing the Northwind database using Tableau. It presents insights into sales, customers, and products through clear and interactive dashboards. The project enables identifying key trends, analyzing performance by categories, and spotting opportunities to improve sales."
       }
+      
     ]
   },
   "testimonials": {

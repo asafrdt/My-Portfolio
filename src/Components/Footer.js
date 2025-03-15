@@ -21,7 +21,7 @@ class Footer extends Component {
             <ul className="social-links">{networks}</ul>
 
             <ul className="copyright">
-              <li>&copy; Developed by Asaf Arditi Using ReactJS</li>
+              <li>&copy; Developed by Or Goren Using ReactJS</li>
             </ul>
           </div>
           <div id="go-top">

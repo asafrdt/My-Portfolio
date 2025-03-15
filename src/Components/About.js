@@ -6,7 +6,6 @@ import {
   EmailShareButton,
   EmailIcon,
 } from "react-share";
-
 class About extends Component {
   render() {
     if (this.props.data) {
@@ -56,24 +55,17 @@ class About extends Component {
                     <a
                       className="react-share-button"
                       target="_blank"
-                      href={"https://wa.me/+972543476767/?text="}
+                      href={"https://wa.me/+972523530580/?text="}
                     >
                       <WhatsappIcon size={"4rem"} round={true} />
                     </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a
-                      className="react-share-button"
-                      target="_blank"
-                      href={"https://m.me/Asaf-Arditi/?text="}
-                    >
-                      <FacebookMessengerIcon size={"4rem"} round={true} />
-                    </a>
+                  
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a
                       className="react-share-button"
                       target="_blank"
                       href={
-                        "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=asafrdt@gmail.com&su=Hello From #YourName&body=Hi Asaf, nice to meet you!&ui=2&tf=1&pli=1"
+                        "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=orrgn1766@gmail.com&su=Hello From #YourName&body=Hi Or, nice to meet you!&ui=2&tf=1&pli=1"
                       }
                     >
                       <EmailIcon

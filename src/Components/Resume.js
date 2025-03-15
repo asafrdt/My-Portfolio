@@ -27,16 +27,10 @@ class Resume extends Component {
       var military = this.props.data.military.map(function (military) {
         return (
           <div key={military.company}>
-            <h3 style={{ color: "white" }}>{military.company}</h3>
-            <p className="info" style={{ color: "white" }}>
-              {military.title}
-              <span style={{ color: "white" }}>&bull;</span>{" "}
-              <em className="date">{military.years}</em>
-            </p>
-            &bull; Responsible for up to 30 men.
-            <br /> &bull; Planned the execution several squad missions.
-            <br /> &bull; Sergeant in a combat squad.
-            <br /> &bull; Participated in “Protective Edge” operation.
+            
+            &bull; Hebrew - Native
+            <br /> &bull; English - Fluent
+            
           </div>
         );
       });
@@ -79,12 +73,10 @@ class Resume extends Component {
               <div className="twelve columns">
                 <span style={{ color: "white" }}>
                   {education}
-                  &bull; Major: Data Mining &bull; GPA: 84 &bull; Expected
-                  graduation - 2021
-                  <br /> &bull; Expertise in scripting with Python, using:
-                  OpenCV, Keras, Tenser-Flow, Numpy, Pandas, NLTK, etc.
-                  <br /> &bull; Other Skills: Java, C, C#, C++, React, Node.js,
-                  JS, Linux, SQL.
+                  &bull; Major: Digital Innovation &bull; Expected
+                  graduation - 2026
+                 
+                  <br /> &bull; Skills: SQL, Excel, Tableau, MS Project, Monday.com, Python, Java, C++
                 </span>
               </div>
             </div>
@@ -94,18 +86,13 @@ class Resume extends Component {
         <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span style={{ color: "white" }}>Experience</span>
+              <span style={{ color: "white" }}>Social Activities</span>
             </h1>
           </div>
 
           <div className="nine columns main-col">
             <span style={{ color: "white" }}>
-              {work} &bull; Creative thinking skills to accommodate consumers.
-              <br /> &bull; Proactive and effective time management
-              <br />
-              &bull; Specializing in Adobe Premiere Pro.
-              <br /> &bull; Familiar with Adobe After effects, Lightroom and
-              Photoshop.
+              {work}
             </span>
           </div>
         </div>
@@ -113,7 +100,7 @@ class Resume extends Component {
         <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span style={{ color: "white" }}>military</span>
+              <span style={{ color: "white" }}>Languages</span>
             </h1>
           </div>
 

@@ -49,11 +49,11 @@ class Header extends Component {
                 Projects
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#testimonials">
                 Videos
               </a>
-            </li>
+            </li> */}
             {/* <li>
               <a className="smoothscroll" href="#contact">
                 Contact
@@ -65,23 +65,17 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
-            <h3>
+            <h2>
               <span>
-                Software engineer at Elbit systems.
+              I’m a B.Sc. student in Information Systems at The Academic College of Tel-Aviv
                 {" "}
               </span>
               <br />
-              <span>
-                {" "}
-                I have a passion for AI, computer vision, and full stack
-                developing. <br />
-              </span>
-            </h3>
-            <h2>
-              I'm looking for a software developer position in central
-              Israel.
+            
             </h2>
-
+            <h2>
+            Seeking a student role in Data Analysis, Implementation Consultant, and PMO.
+            </h2>
             <h3>
               <span></span>
             </h3>
