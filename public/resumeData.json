@@ -5,7 +5,7 @@
     "description": "Fourth year software engineering student from Tel-Aviv.",
     "description2": "Add Somthing here!",
     "image": "profilepic.jpeg",
-    "bio": "I’m a B.Sc. student in Information Systems at The Academic College of Tel-Aviv with a strong passion for project management, data, and technology. I am a hardworking, ambitious learner, eager to gain hands-on experience in a dynamic and challenging environment. I am currently looking for a student position in roles such as Data Analyst, Implementation Consultant, or PMO, to further develop my skills and contribute to.",
+    "bio": "I’m a B.Sc. student in Information Systems at The Academic College of Tel-Aviv with a strong passion for project management, data, and technology. I am a hardworking, ambitious learner, eager to gain hands-on experience in a dynamic and challenging environment. I am currently looking for a student position in roles such as Data Analyst, Implementation Consultant, or PMO, to further develop my skills and contribute to impactful projects.",
     "email": "orrgn1766@gmail.com",
     "phone": "+972-523530580",
     "address": {
@@ -95,8 +95,13 @@
         "category": "Excel dashboard analyzing Northwind sales, customer behavior, and product trends for data-driven decisions.",
         "image": "excel.webp",
         "url": "The project focuses on analyzing the Northwind database using Tableau. It presents insights into sales, customers, and products through clear and interactive dashboards. The project enables identifying key trends, analyzing performance by categories, and spotting opportunities to improve sales."
+      },
+      {
+        "title": "SQL Project",
+        "category": "Analyzing the Northwind database in Tableau with interactive dashboards for sales, customers, and product trends.",
+        "image": "tableau.png",
+        "url": "https://public.tableau.com/views/Book1_17416397845330/NorthwindDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
       }
-      
     ]
   },
   "testimonials": {
