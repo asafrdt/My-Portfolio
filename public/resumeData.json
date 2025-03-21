@@ -1,6 +1,6 @@
 {
   "main": {
-    "name": "Or Goren",
+    "name": "Or Goren1",
     "occupation": "Fourth year software engineering student",
     "description": "Fourth year software engineering student from Tel-Aviv.",
     "description2": "Add Somthing here!",
@@ -94,7 +94,7 @@
         "title": "Excel Project",
         "category": "Excel dashboard analyzing Northwind sales, customer behavior, and product trends for data-driven decisions.",
         "image": "excel.webp",
-        "url": ""
+        "url": "https://mailmtaac-my.sharepoint.com/personal/orgo3_mta_ac_il/_layouts/15/Doc.aspx?sourcedoc=%7B05811686-E4F8-4382-87CD-6068AC7CBEDA%7D&file=Final_Project_Excel%20(1).xlsx&action=default&mobileredirect=true&DefaultItemOpen=1"
       },
       {
         "title": "SQL Project",
