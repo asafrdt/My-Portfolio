@@ -99,7 +99,7 @@
       {
         "title": "SQL Project",
         "category": "Analyzing the Northwind database in Tableau with interactive dashboards for sales, customers, and product trends.",
-        "image": "public/images/portfolio/SQLlogo.png",
+        "image": "public/images/portfolio/sql_logo.png",
         "url": "https://github.com/ORGOREN17/SQL-Project"
       }
     ]
