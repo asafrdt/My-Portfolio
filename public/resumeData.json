@@ -1,6 +1,6 @@
 {
   "main": {
-    "name": "Or Goren2",
+    "name": "Or Goren",
     "occupation": "Fourth year software engineering student",
     "description": "Fourth year software engineering student from Tel-Aviv.",
     "description2": "Add Somthing here!",
@@ -99,7 +99,7 @@
       {
         "title": "SQL Project",
         "category": "Analyzing the Northwind database in Tableau with interactive dashboards for sales, customers, and product trends.",
-        "image": "images/portfolio/sql_logo.png",
+        "image": "C:\Users\user\OneDrive\Desktop\orproject\My-Portfolio\public\images\portfolio\sqllogo.png",
         "url": "https://github.com/ORGOREN17/SQL-Project"
       }
     ]
