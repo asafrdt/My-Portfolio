@@ -13,7 +13,7 @@
       "state": "Israel"
     },
     "website": "http://www.asafrdt.com",
-    "resumedownload": "file:///C:/Users/user/OneDrive/Desktop/myCVresume.pdf",
+    "resumedownload": "https://drive.google.com/file/d/1vyExkDum4-gPGm6G9lwFSLCDgXd8PcGF/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -86,7 +86,7 @@
     "projects": [
       {
         "title": "Tableau Project",
-        "category": "Tableau dashboard analyzing Northwind sales, customer behavior, and product trends for data-driven decisions.",
+        "category": "Excel dashboard analyzing Northwind sales, customer behavior, and product trends for data-driven decisions.",
         "image": "tableau.png",
         "url": "https://public.tableau.com/views/Book1_17416397845330/NorthwindDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
       },
@@ -98,7 +98,7 @@
       },
       {
         "title": "SQL Project",
-        "category": "In this project, I analyzed the Northwind database to answer key business questions, uncover trends, and provide actionable insights using sales, customer, order, and product data.",
+        "category": "In this project, I conducted an in-depth analysis of the Northwind database to answer key business questions and provide actionable insights. The analysis involved querying data related to sales, customers, orders, and products to uncover trends, identify performance metrics, and support strategic decision-making.",
         "image": "sqllogo.png",
         "url": "https://github.com/ORGOREN17/SQL-Project"
       }
