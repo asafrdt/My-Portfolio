@@ -1,6 +1,6 @@
 {
   "main": {
-    "name": "Or Goren1",
+    "name": "Or Goren",
     "occupation": "Fourth year software engineering student",
     "description": "Fourth year software engineering student from Tel-Aviv.",
     "description2": "Add Somthing here!",
@@ -94,12 +94,12 @@
         "title": "Excel Project",
         "category": "Excel dashboard analyzing Northwind sales, customer behavior, and product trends for data-driven decisions.",
         "image": "excel.webp",
-        "url": "The project focuses on analyzing the Northwind database using Tableau. It presents insights into sales, customers, and products through clear and interactive dashboards. The project enables identifying key trends, analyzing performance by categories, and spotting opportunities to improve sales."
+        "url": ""
       },
       {
         "title": "SQL Project",
         "category": "Analyzing the Northwind database in Tableau with interactive dashboards for sales, customers, and product trends.",
-        "image": "SQLlogo.png",
+        "image": "public/images/portfolio/SQLlogo.png",
         "url": "https://github.com/ORGOREN17/SQL-Project"
       }
     ]
