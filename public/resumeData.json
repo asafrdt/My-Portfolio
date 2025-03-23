@@ -98,7 +98,7 @@
       },
       {
         "title": "SQL Project",
-        "category": "In this project, I conducted an in-depth analysis of the Northwind database to answer key business questions and provide actionable insights. The analysis involved querying data related to sales, customers, orders, and products to uncover trends, identify performance metrics, and support strategic decision-making.",
+        "category": "Analyzed the Northwind database to answer key business questions, uncover trends, and identify performance metrics across sales, customers, orders, and products to support strategic decisions.",
         "image": "sqllogo.png",
         "url": "https://github.com/ORGOREN17/SQL-Project"
       }
