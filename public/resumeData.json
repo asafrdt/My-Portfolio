@@ -4,7 +4,7 @@
     "occupation": "Product R&D & Data Analyst & B.Sc. Student",
     "description": "Product R&D & Data Analyst & B.Sc. student from Tel-Aviv.",
     "description2": "Add Somthing here!",
-    "image": "My-Portfolio/public/images/pictag.jpeg",
+    "image": "images/profile.jpg",
     "bio": "Product R&D Student at Papaya Global, responsible for customizing and implementing client-specific solutions while collaborating with cross-functional teams. In parallel, I work as a Data Analyst at CAL, delivering data-driven insights and performance evaluations to diverse stakeholders to support informed decision-making. Currently in my final semester of a B.Sc. in Information Systems. I am looking for a full-time opportunity in the field of Product & Project Management, aiming to take on a challenging role where I can contribute the knowledge and experience I have developed.",
     "email": "orrgn1766@gmail.com",
     "phone": "+972-523530580",
@@ -31,7 +31,7 @@
     "education": [
       {
         "degree": "The Academic College of Tel-Aviv",
-        "school": "B.Sc. in Information System Student"
+        "school": "B.Sc. in Information Systems"
       }
     ],
     "work": [
